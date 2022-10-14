@@ -193,7 +193,7 @@ function timerStart(){
                     timersec.innerHTML=timeFunc(timeLeft);
                     console.log(timeFunc(timeLeft));
                     countSignal.play();
-                    window.navigator.vibrate(500);
+                    
                     
                 }else{
                     timersec.innerHTML='GO!';
