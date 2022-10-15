@@ -197,7 +197,7 @@ function timerStart(){
                     
                 }else{
                     timersec.innerHTML='GO!';
-                    window.navigator.vibrate(500);
+                    // window.navigator.vibrate(500);
                     clearInterval(countInterval);
                     countSignal.currentTime=0;
                     countSignal.volume=1;
@@ -249,7 +249,7 @@ function standartTimer(){
                     clearInterval(countInterval);
                     countSignal.currentTime=0;
                     countSignal.play();
-                    window.navigator.vibrate(500);
+                    // window.navigator.vibrate(500);
                     bgSound.pause();
                     bgSound.currentTime='0';
                     setTimeout(()=>{
