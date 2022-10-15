@@ -45,7 +45,7 @@ function customerTimer(){
                     clearInterval(countInterval);
                     countSignal.currentTime=0;
                     countSignal.play();
-                    window.navigator.vibrate(500);
+                    // window.navigator.vibrate(500);
                     standartTimer();
                     
                 }
@@ -111,7 +111,7 @@ function customerTimer(){
                         clearInterval(countInterval);
                         countSignal.currentTime=0;
                         countSignal.play();
-                        window.navigator.vibrate(500);
+                        // window.navigator.vibrate(500);
                         bgSound2.volume=0;
                         
                         
@@ -150,7 +150,7 @@ function customerTimer(){
                                                     clearInterval(countIntervalR);
                                                     countSignal.currentTime=0;
                                                     countSignal.play();
-                                                    window.navigator.vibrate(500);
+                                                    // window.navigator.vibrate(500);
                                                         setTimeout(()=>{
                                                         cycleblock()
                                                         },1000);
@@ -171,7 +171,7 @@ function customerTimer(){
                                 roundsTxt.style.color='black';
                                 countSignal.currentTime=0;
                                 countSignal.play();
-                                window.navigator.vibrate(500);
+                                // window.navigator.vibrate(500);
                                 bgSound2.pause();
                                 bgSound2.currentTime='0';
                                 
