@@ -192,7 +192,7 @@ function timerStart(){
                     
                     timersec.innerHTML=timeFunc(timeLeft);
                     console.log(timeFunc(timeLeft));
-                    countSignal.play();
+                    
                     
                     
                 }else{
