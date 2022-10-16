@@ -8,6 +8,7 @@ function selectScreenSetting(){
         let windowInnerWidth = window.innerWidth;
         let windowInnerHeight = window.innerHeight;
         let blockSize=document.querySelector('.general');
+        let roundDiscr=document.getElementById('RoundsTxt');
 
         console.log(windowInnerHeight);
 
@@ -34,6 +35,7 @@ function selectScreenSetting(){
                 soundBlock2.style.float='left';
                 soundBlock2.style.flexDirection= 'column';
                 soundBlock2.style.flexWrap='wrap';
+                roundDiscr.style.position='absolute';
 
                 startButton.style.float='left';
                 
@@ -47,6 +49,7 @@ function selectScreenSetting(){
                 soundBlock2.style.float='none';
                 soundBlock2.style.flexDirection= 'row';
                 soundBlock2.style.flexWrap='nowrap';
+                roundDiscr.style.position='auto';
 
                 startButton.style.float='none';
                 
