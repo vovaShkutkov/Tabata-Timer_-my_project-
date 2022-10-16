@@ -14,15 +14,15 @@ function validSetting(){
     }
 
     if(valueValidSetting==1){
-        //let customerSetting1=document.getElementById('customerSetting1');
+        
         let customerSetting2=document.getElementById('customerSetting2');
-       // customerSetting1.style.display='block';
         customerSetting2.style.display='none';
+        showDescription();
 
     }else{
         let customerSetting2=document.getElementById('customerSetting2');
-       // customerSetting1.style.display='none';
         customerSetting2.style.display='block';
+        hideDescription();
     }
 
     
@@ -115,6 +115,8 @@ function checkCustomerSetting(){
 
 
     }else{
+        
+        hideDescription();
         validForm();
     }
 }
